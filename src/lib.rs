@@ -4,6 +4,7 @@ pub mod easy {
     pub mod convert_the_temperature;
     pub mod defanging_an_ip_address;
     pub mod find_the_maximum_achievable_number;
+    pub mod number_of_good_pairs;
     pub mod score_of_a_string;
     pub mod two_sum;
     pub mod valid_palindrome_ii;
