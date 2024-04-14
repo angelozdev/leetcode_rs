@@ -1,6 +1,7 @@
 pub mod easy {
     pub mod build_array_from_permutation;
     pub mod concatenation_of_array;
+    pub mod convert_the_temperature;
     pub mod find_the_maximum_achievable_number;
     pub mod score_of_a_string;
     pub mod two_sum;
