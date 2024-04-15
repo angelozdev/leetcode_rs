@@ -1,16 +1,28 @@
-use leetcode_rs::easy;
+use leetcode_rs::easy::final_value_of_variable_after_performing_operations::final_value_after_operations;
 
 fn main() {
     assert_eq!(
-        easy::number_of_good_pairs::num_identical_pairs(vec![1, 2, 3, 1, 1, 3]),
-        4
+        final_value_after_operations(
+            ["--X".to_string(), "X++".to_string(), "X++".to_string()].to_vec()
+        ),
+        1
     );
     assert_eq!(
-        easy::number_of_good_pairs::num_identical_pairs(vec![1, 1, 1, 1]),
-        6
+        final_value_after_operations(
+            ["++X".to_string(), "++X".to_string(), "X++".to_string()].to_vec()
+        ),
+        3
     );
     assert_eq!(
-        easy::number_of_good_pairs::num_identical_pairs(vec![1, 2, 3]),
+        final_value_after_operations(
+            [
+                "X++".to_string(),
+                "++X".to_string(),
+                "--X".to_string(),
+                "X--".to_string()
+            ]
+            .to_vec()
+        ),
         0
     );
 }

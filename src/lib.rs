@@ -3,6 +3,7 @@ pub mod easy {
     pub mod concatenation_of_array;
     pub mod convert_the_temperature;
     pub mod defanging_an_ip_address;
+    pub mod final_value_of_variable_after_performing_operations;
     pub mod find_the_maximum_achievable_number;
     pub mod number_of_good_pairs;
     pub mod score_of_a_string;
