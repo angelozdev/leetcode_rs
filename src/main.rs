@@ -1,7 +1,10 @@
-use leetcode_rs::easy::partitioning_into_minimum_number_of_deci_binary_numbers::min_partitions;
+use leetcode_rs::easy::jewels_and_stones_771::num_jewels_in_stones;
 
 fn main() {
-    assert_eq!(min_partitions("32".to_string()), 3);
-    assert_eq!(min_partitions("823734".to_string()), 8);
-    assert_eq!(min_partitions("384276378467769".to_string()), 9);
+    assert_eq!(
+        num_jewels_in_stones("aA".to_string(), "aAAbbbb".to_string()),
+        3
+    );
+
+    assert_eq!(num_jewels_in_stones("z".to_string(), "ZZ".to_string()), 0);
 }

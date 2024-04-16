@@ -3,6 +3,7 @@ pub mod concatenation_of_array;
 pub mod covert_the_temperature;
 pub mod defanging_an_ip_address;
 pub mod final_value_of_variable_after_performing_operations;
+pub mod jewels_and_stones_771;
 pub mod num_identical_pairs;
 pub mod partitioning_into_minimum_number_of_deci_binary_numbers;
 pub mod score_of_a_string;
