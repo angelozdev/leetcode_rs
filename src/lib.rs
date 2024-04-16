@@ -6,6 +6,7 @@ pub mod easy {
     pub mod final_value_of_variable_after_performing_operations;
     pub mod find_the_maximum_achievable_number;
     pub mod number_of_good_pairs;
+    pub mod partitioning_into_minimum_number_of_deci_binary_numbers;
     pub mod score_of_a_string;
     pub mod two_sum;
     pub mod valid_palindrome_ii;

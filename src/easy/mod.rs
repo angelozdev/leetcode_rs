@@ -4,6 +4,7 @@ pub mod covert_the_temperature;
 pub mod defanging_an_ip_address;
 pub mod final_value_of_variable_after_performing_operations;
 pub mod num_identical_pairs;
+pub mod partitioning_into_minimum_number_of_deci_binary_numbers;
 pub mod score_of_a_string;
 pub mod the_maximum_achievable_x;
 pub mod two_sum;

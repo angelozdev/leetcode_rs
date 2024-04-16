@@ -1,28 +1,7 @@
-use leetcode_rs::easy::final_value_of_variable_after_performing_operations::final_value_after_operations;
+use leetcode_rs::easy::partitioning_into_minimum_number_of_deci_binary_numbers::min_partitions;
 
 fn main() {
-    assert_eq!(
-        final_value_after_operations(
-            ["--X".to_string(), "X++".to_string(), "X++".to_string()].to_vec()
-        ),
-        1
-    );
-    assert_eq!(
-        final_value_after_operations(
-            ["++X".to_string(), "++X".to_string(), "X++".to_string()].to_vec()
-        ),
-        3
-    );
-    assert_eq!(
-        final_value_after_operations(
-            [
-                "X++".to_string(),
-                "++X".to_string(),
-                "--X".to_string(),
-                "X--".to_string()
-            ]
-            .to_vec()
-        ),
-        0
-    );
+    assert_eq!(min_partitions("32".to_string()), 3);
+    assert_eq!(min_partitions("823734".to_string()), 8);
+    assert_eq!(min_partitions("384276378467769".to_string()), 9);
 }
