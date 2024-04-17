@@ -1,10 +1,6 @@
-use leetcode_rs::easy::jewels_and_stones_771::num_jewels_in_stones;
+use leetcode_rs::easy::divisible_and_non_divisible_sums_difference_2894::difference_of_sums;
 
 fn main() {
-    assert_eq!(
-        num_jewels_in_stones("aA".to_string(), "aAAbbbb".to_string()),
-        3
-    );
-
-    assert_eq!(num_jewels_in_stones("z".to_string(), "ZZ".to_string()), 0);
+    assert_eq!(difference_of_sums(5, 1), -15);
+    assert_eq!(difference_of_sums(20, 3), 84);
 }

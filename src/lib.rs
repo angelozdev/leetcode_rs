@@ -3,6 +3,7 @@ pub mod easy {
     pub mod concatenation_of_array;
     pub mod convert_the_temperature;
     pub mod defanging_an_ip_address;
+    pub mod divisible_and_non_divisible_sums_difference_2894;
     pub mod final_value_of_variable_after_performing_operations;
     pub mod find_the_maximum_achievable_number;
     pub mod jewels_and_stones_771;
