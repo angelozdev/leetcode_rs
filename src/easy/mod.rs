@@ -1,4 +1,5 @@
 pub mod build_array_from_permutation;
+pub mod ceiling_of_target;
 pub mod concatenation_of_array;
 pub mod covert_the_temperature;
 pub mod defanging_an_ip_address;
